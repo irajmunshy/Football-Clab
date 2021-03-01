@@ -1,0 +1,43 @@
+.player-info {
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+.player-info img {
+    width: 264px;
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.player-info h2 {
+    font-size: 23px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.player-info h5 {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.player-info p {
+    font-size: 16px;
+    font-weight: 600;
+}
+.player-info span {
+    padding-left: 5px;
+}
+.player-info button {
+    color: #fff;
+    background-color: gray;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 9px 36px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    transition: all .3s ease;
+}
+.player-info button:hover {
+    background: none;
+    color: #000;
+}
